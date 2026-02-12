@@ -1,0 +1,11 @@
+*.java
+*.jar
+*.dll
+xa_install.sql
+sqljdbc_13.2.1.0_enu.zip
+jdk-25*
+install.txt
+license.txt
+redist.txt
+release.txt
+thirdpartynotices.txt

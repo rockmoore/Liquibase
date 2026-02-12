@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<databaseChangeLog
+        xmlns="http://www.liquibase.org/xml/ns/dbchangelog"
+        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xsi:schemaLocation="
+          http://www.liquibase.org/xml/ns/dbchangelog
+          http://www.liquibase.org/xml/ns/dbchangelog/dbchangelog-4.23.xsd">
+
+    <changeSet id="2" author="Jimbo" labels="ADDED TABLE2" context="ADDED TABLE2">
+        <comment>ADDED TABLE2</comment>
+        <sql>
+            CREATE TABLE TABLE2 (
+                id INT IDENTITY(1,1) PRIMARY KEY NOT NULL,
+                name VARCHAR(50) NOT NULL,
+                address1 VARCHAR(50),
+                address2 VARCHAR(50),
+                city VARCHAR(30)
+            );
+        </sql>
+        <rollback>
+            DROP TABLE TABLE2;
+        </rollback>
+    </changeSet>
+</databaseChangeLog>
