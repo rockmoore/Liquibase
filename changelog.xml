@@ -1,0 +1,81 @@
+<?xml version="1.1" encoding="UTF-8" standalone="no"?>
+<databaseChangeLog xmlns="http://www.liquibase.org/xml/ns/dbchangelog" xmlns:ext="http://www.liquibase.org/xml/ns/dbchangelog-ext" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.liquibase.org/xml/ns/dbchangelog-ext http://www.liquibase.org/xml/ns/dbchangelog/dbchangelog-ext.xsd http://www.liquibase.org/xml/ns/dbchangelog http://www.liquibase.org/xml/ns/dbchangelog/dbchangelog-latest.xsd">
+    <changeSet author="eluktronics (generated)" id="1770909811293-1">
+        <createTable tableName="TABLE1">
+            <column autoIncrement="true" computed="false" name="id" type="int">
+                <constraints nullable="false" primaryKey="true" primaryKeyName="PK__TABLE1__3213E83F72AEDF32"/>
+            </column>
+            <column computed="false" name="name" type="varchar(50)">
+                <constraints nullable="false"/>
+            </column>
+            <column computed="false" name="address1" type="varchar(50)"/>
+            <column computed="false" name="address2" type="varchar(50)"/>
+            <column computed="false" name="city" type="varchar(30)"/>
+        </createTable>
+    </changeSet>
+    <changeSet author="eluktronics (generated)" id="1770909811293-2">
+        <createTable tableName="TABLE2">
+            <column autoIncrement="true" computed="false" name="id" type="int">
+                <constraints nullable="false" primaryKey="true" primaryKeyName="PK__TABLE2__3213E83F22F4E29A"/>
+            </column>
+            <column computed="false" name="name" type="varchar(50)">
+                <constraints nullable="false"/>
+            </column>
+            <column computed="false" name="address1" type="varchar(50)"/>
+            <column computed="false" name="address2" type="varchar(50)"/>
+            <column computed="false" name="city" type="varchar(30)"/>
+        </createTable>
+    </changeSet>
+    <changeSet author="eluktronics (generated)" id="1770909811293-3">
+        <createTable tableName="TABLE3">
+            <column autoIncrement="true" computed="false" name="id" type="int">
+                <constraints nullable="false" primaryKey="true" primaryKeyName="PK__TABLE3__3213E83FFBB33D08"/>
+            </column>
+            <column computed="false" name="name" type="varchar(50)">
+                <constraints nullable="false"/>
+            </column>
+            <column computed="false" name="address1" type="varchar(50)"/>
+            <column computed="false" name="address2" type="varchar(50)"/>
+            <column computed="false" name="city" type="varchar(30)"/>
+        </createTable>
+    </changeSet>
+    <changeSet author="eluktronics (generated)" id="1770909811293-4">
+        <createTable tableName="TABLE4">
+            <column autoIncrement="true" computed="false" name="id" type="int">
+                <constraints nullable="false" primaryKey="true" primaryKeyName="PK__TABLE4__3213E83F27ED0BD8"/>
+            </column>
+            <column computed="false" name="name" type="varchar(50)">
+                <constraints nullable="false"/>
+            </column>
+            <column computed="false" name="address1" type="varchar(50)"/>
+            <column computed="false" name="address2" type="varchar(50)"/>
+            <column computed="false" name="city" type="varchar(30)"/>
+        </createTable>
+    </changeSet>
+    <changeSet author="eluktronics (generated)" id="1770909811293-5">
+        <createTable tableName="TABLE5">
+            <column autoIncrement="true" computed="false" name="id" type="int">
+                <constraints nullable="false" primaryKey="true" primaryKeyName="PK__TABLE5__3213E83F91A2C99F"/>
+            </column>
+            <column computed="false" name="name" type="varchar(50)">
+                <constraints nullable="false"/>
+            </column>
+            <column computed="false" name="address1" type="varchar(50)"/>
+            <column computed="false" name="address2" type="varchar(50)"/>
+            <column computed="false" name="city" type="varchar(30)"/>
+        </createTable>
+    </changeSet>
+    <changeSet author="eluktronics (generated)" id="1770909811293-6">
+        <createTable tableName="TABLE6">
+            <column autoIncrement="true" computed="false" name="id" type="int">
+                <constraints nullable="false" primaryKey="true" primaryKeyName="PK__TABLE6__3213E83FFB116618"/>
+            </column>
+            <column computed="false" name="name" type="varchar(50)">
+                <constraints nullable="false"/>
+            </column>
+            <column computed="false" name="address1" type="varchar(50)"/>
+            <column computed="false" name="address2" type="varchar(50)"/>
+            <column computed="false" name="city" type="varchar(30)"/>
+        </createTable>
+    </changeSet>
+</databaseChangeLog>
