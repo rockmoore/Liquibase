@@ -78,7 +78,7 @@ password=YourStrongPassword123
 **db/changelog/001-create-customer-table.xml:**
 
 ```xml
-<changeSet id="001" author="jesse">
+<changeSet id="001" author="Jeff Loomis">
     <createTable tableName="Customer">
         <column name="CustomerId" type="INT">
             <constraints primaryKey="true" nullable="false"/>
