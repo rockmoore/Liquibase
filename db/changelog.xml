@@ -11,4 +11,8 @@
     <include file="changesets/004-create-table4-table.xml" relativeToChangelogFile="true"/>
     <include file="changesets/005-create-table5-table.xml" relativeToChangelogFile="true"/>
     <include file="changesets/006-create-table6-table.xml" relativeToChangelogFile="true"/>
+    <changeSet author="Jimbo" id="7"><tagDatabase tag="ADDED TABLE7"/></changeSet>
+    <include file="changesets/007-create-table7-table.xml" relativeToChangelogFile="true"/>
+    <changeSet author="Jimbo" id="8"><tagDatabase tag="ADDED TABLE8"/></changeSet>
+    <include file="changesets/008-create-table8-table.xml" relativeToChangelogFile="true"/>
 </databaseChangeLog>
